@@ -245,9 +245,9 @@ public class RegistroCliente extends javax.swing.JFrame {
             String apellidoCliente = txtRegistroApellidoCompleto.getText();
             String fechaNacCliente = txtFechaNacimiento.getText();
             String correoCliente = txtRegistroCorreoCliente.getText();
-            String contraseñaCliente = txtRegistroContrasenaCliente.getText();
-            createNewClient.clientRegistry(nombreCliente, apellidoCliente, fechaNacCliente, correoCliente, contraseñaCliente);
-            int resultado = JOptionPane.showConfirmDialog(null, "¡Se ha registrado con éxito!", "Deliverya App", dialogo, aux, new ImageIcon("src/main/java/imagen/pulgar-arriba.png"));
+            String contrasenaCliente = txtRegistroContrasenaCliente.getText();
+            createNewClient.clientRegistry(nombreCliente, apellidoCliente, fechaNacCliente, correoCliente, contrasenaCliente);
+            JOptionPane.showConfirmDialog(null, "�Se ha registrado con Exito!");
 
         }
         

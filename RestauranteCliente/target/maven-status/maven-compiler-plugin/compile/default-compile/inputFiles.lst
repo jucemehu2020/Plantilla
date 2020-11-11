@@ -1,20 +1,8 @@
-J:\Universidad\Semestre 2020-1 (6to Semestre)\Lab. Ingenieria de software II\Proyecto\Domicilios\DomiciliosCliente\src\main\java\co\unicauca\domicilios\domain\SearchClient.java
-J:\Universidad\Semestre 2020-1 (6to Semestre)\Lab. Ingenieria de software II\Proyecto\Domicilios\DomiciliosCliente\src\main\java\co\unicauca\domicilios\infra\DomiciliosSocket.java
-J:\Universidad\Semestre 2020-1 (6to Semestre)\Lab. Ingenieria de software II\Proyecto\Domicilios\DomiciliosCliente\src\main\java\co\unicauca\domicilios\access\RestauranteAccessImplSockets.java
-J:\Universidad\Semestre 2020-1 (6to Semestre)\Lab. Ingenieria de software II\Proyecto\Domicilios\DomiciliosCliente\src\main\java\co\unicauca\domicilios\access\IMenu.java
-J:\Universidad\Semestre 2020-1 (6to Semestre)\Lab. Ingenieria de software II\Proyecto\Domicilios\DomiciliosCliente\src\main\java\co\unicauca\domicilios\presentation\vista\RegistroRestaurante.java
-J:\Universidad\Semestre 2020-1 (6to Semestre)\Lab. Ingenieria de software II\Proyecto\Domicilios\DomiciliosCliente\src\main\java\co\unicauca\domicilios\domain\User.java
-J:\Universidad\Semestre 2020-1 (6to Semestre)\Lab. Ingenieria de software II\Proyecto\Domicilios\DomiciliosCliente\src\main\java\co\unicauca\domicilios\presentation\vista\MenuPrincipalCliente.java
-J:\Universidad\Semestre 2020-1 (6to Semestre)\Lab. Ingenieria de software II\Proyecto\Domicilios\DomiciliosCliente\src\main\java\co\unicauca\domicilios\presentation\vista\TextPrompt.java
-J:\Universidad\Semestre 2020-1 (6to Semestre)\Lab. Ingenieria de software II\Proyecto\Domicilios\DomiciliosCliente\src\main\java\co\unicauca\domicilios\domain\CreateNewClient.java
-J:\Universidad\Semestre 2020-1 (6to Semestre)\Lab. Ingenieria de software II\Proyecto\Domicilios\DomiciliosCliente\src\main\java\co\unicauca\domicilios\presentation\vista\IniciarSesionRestaurante.java
-J:\Universidad\Semestre 2020-1 (6to Semestre)\Lab. Ingenieria de software II\Proyecto\Domicilios\DomiciliosCliente\src\main\java\co\unicauca\domicilios\presentation\vista\PanelInicio.java
-J:\Universidad\Semestre 2020-1 (6to Semestre)\Lab. Ingenieria de software II\Proyecto\Domicilios\DomiciliosCliente\src\main\java\co\unicauca\domicilios\presentation\vista\RegistroCliente.java
-J:\Universidad\Semestre 2020-1 (6to Semestre)\Lab. Ingenieria de software II\Proyecto\Domicilios\DomiciliosCliente\src\main\java\co\unicauca\domicilios\access\MenuAccessImplSockets.java
-J:\Universidad\Semestre 2020-1 (6to Semestre)\Lab. Ingenieria de software II\Proyecto\Domicilios\DomiciliosCliente\src\main\java\co\unicauca\domicilios\access\IRestaurante.java
-J:\Universidad\Semestre 2020-1 (6to Semestre)\Lab. Ingenieria de software II\Proyecto\Domicilios\DomiciliosCliente\src\main\java\co\unicauca\domicilios\domain\CreateNewRestaurant.java
-J:\Universidad\Semestre 2020-1 (6to Semestre)\Lab. Ingenieria de software II\Proyecto\Domicilios\DomiciliosCliente\src\main\java\co\unicauca\domicilios\access\Factory.java
-J:\Universidad\Semestre 2020-1 (6to Semestre)\Lab. Ingenieria de software II\Proyecto\Domicilios\DomiciliosCliente\src\main\java\co\unicauca\domicilios\access\ICliente.java
-J:\Universidad\Semestre 2020-1 (6to Semestre)\Lab. Ingenieria de software II\Proyecto\Domicilios\DomiciliosCliente\src\main\java\co\unicauca\domicilios\presentation\vista\IniciarSesionCliente.java
-J:\Universidad\Semestre 2020-1 (6to Semestre)\Lab. Ingenieria de software II\Proyecto\Domicilios\DomiciliosCliente\src\main\java\co\unicauca\domicilios\access\ClienteAccessImplSockets.java
-J:\Universidad\Semestre 2020-1 (6to Semestre)\Lab. Ingenieria de software II\Proyecto\Domicilios\DomiciliosCliente\src\main\java\co\unicauca\domicilios\domain\services\DomiciliosService.java
+D:\U\Semestre 6\Lab Ingenieria Software 2\Plantilla Julio\Plantilla\RestauranteCliente\src\main\java\co\unicauca\domicilios\domain\CreateNewClient.java
+D:\U\Semestre 6\Lab Ingenieria Software 2\Plantilla Julio\Plantilla\RestauranteCliente\src\main\java\co\unicauca\domicilios\domain\services\DomiciliosService.java
+D:\U\Semestre 6\Lab Ingenieria Software 2\Plantilla Julio\Plantilla\RestauranteCliente\src\main\java\co\unicauca\domicilios\access\ICliente.java
+D:\U\Semestre 6\Lab Ingenieria Software 2\Plantilla Julio\Plantilla\RestauranteCliente\src\main\java\co\unicauca\domicilios\presentation\vista\RegistroCliente.java
+D:\U\Semestre 6\Lab Ingenieria Software 2\Plantilla Julio\Plantilla\RestauranteCliente\src\main\java\co\unicauca\domicilios\presentation\vista\TextPrompt.java
+D:\U\Semestre 6\Lab Ingenieria Software 2\Plantilla Julio\Plantilla\RestauranteCliente\src\main\java\co\unicauca\domicilios\access\Factory.java
+D:\U\Semestre 6\Lab Ingenieria Software 2\Plantilla Julio\Plantilla\RestauranteCliente\src\main\java\co\unicauca\domicilios\infra\DomiciliosSocket.java
+D:\U\Semestre 6\Lab Ingenieria Software 2\Plantilla Julio\Plantilla\RestauranteCliente\src\main\java\co\unicauca\domicilios\access\ClienteAccessImplSockets.java

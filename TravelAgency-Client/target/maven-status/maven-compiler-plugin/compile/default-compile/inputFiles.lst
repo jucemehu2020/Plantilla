@@ -1,15 +1,15 @@
-J:\Universidad\Semestre 2020-1 (6to Semestre)\Lab. Ingenieria de software II\Laboratorio 5 - Plantilla\TravelAgency-Client\src\main\java\co\unicauca\travelagency\client\access\CustomerAccessImplSockets.java
-J:\Universidad\Semestre 2020-1 (6to Semestre)\Lab. Ingenieria de software II\Laboratorio 5 - Plantilla\TravelAgency-Client\src\main\java\co\unicauca\travelagency\client\presentation\GUIMenu.java
-J:\Universidad\Semestre 2020-1 (6to Semestre)\Lab. Ingenieria de software II\Laboratorio 5 - Plantilla\TravelAgency-Client\src\main\java\co\unicauca\travelagency\client\infra\TravelAgencySocket.java
-J:\Universidad\Semestre 2020-1 (6to Semestre)\Lab. Ingenieria de software II\Laboratorio 5 - Plantilla\TravelAgency-Client\src\main\java\co\unicauca\travelagency\client\presentation\GUILogin.java
-J:\Universidad\Semestre 2020-1 (6to Semestre)\Lab. Ingenieria de software II\Laboratorio 5 - Plantilla\TravelAgency-Client\src\main\java\co\unicauca\travelagency\client\infra\Messages.java
-J:\Universidad\Semestre 2020-1 (6to Semestre)\Lab. Ingenieria de software II\Laboratorio 5 - Plantilla\TravelAgency-Client\src\main\java\co\unicauca\travelagency\client\domain\User.java
-J:\Universidad\Semestre 2020-1 (6to Semestre)\Lab. Ingenieria de software II\Laboratorio 5 - Plantilla\TravelAgency-Client\src\main\java\co\unicauca\travelagency\client\access\ICustomerAccess.java
-J:\Universidad\Semestre 2020-1 (6to Semestre)\Lab. Ingenieria de software II\Laboratorio 5 - Plantilla\TravelAgency-Client\src\main\java\co\unicauca\travelagency\client\domain\services\CustomerService.java
-J:\Universidad\Semestre 2020-1 (6to Semestre)\Lab. Ingenieria de software II\Laboratorio 5 - Plantilla\TravelAgency-Client\src\main\java\co\unicauca\travelagency\client\access\Factory.java
-J:\Universidad\Semestre 2020-1 (6to Semestre)\Lab. Ingenieria de software II\Laboratorio 5 - Plantilla\TravelAgency-Client\src\main\java\co\unicauca\travelagency\client\infra\Security.java
-J:\Universidad\Semestre 2020-1 (6to Semestre)\Lab. Ingenieria de software II\Laboratorio 5 - Plantilla\TravelAgency-Client\src\main\java\co\unicauca\travelagency\client\presentation\GUICustomizerPackage.java
-J:\Universidad\Semestre 2020-1 (6to Semestre)\Lab. Ingenieria de software II\Laboratorio 5 - Plantilla\TravelAgency-Client\src\main\java\co\unicauca\travelagency\client\domain\services\UserService.java
-J:\Universidad\Semestre 2020-1 (6to Semestre)\Lab. Ingenieria de software II\Laboratorio 5 - Plantilla\TravelAgency-Client\src\main\java\co\unicauca\travelagency\client\presentation\GUIAllInOnePackage.java
-J:\Universidad\Semestre 2020-1 (6to Semestre)\Lab. Ingenieria de software II\Laboratorio 5 - Plantilla\TravelAgency-Client\src\main\java\co\unicauca\travelagency\client\presentation\GUICustomer.java
-J:\Universidad\Semestre 2020-1 (6to Semestre)\Lab. Ingenieria de software II\Laboratorio 5 - Plantilla\TravelAgency-Client\src\main\java\co\unicauca\travelagency\client\presentation\GUIAddCityDialogDialog.java
+D:\U\Semestre 6\Lab Ingenieria Software 2\Plantilla Julio\Plantilla\TravelAgency-Client\src\main\java\co\unicauca\travelagency\client\access\CustomerAccessImplSockets.java
+D:\U\Semestre 6\Lab Ingenieria Software 2\Plantilla Julio\Plantilla\TravelAgency-Client\src\main\java\co\unicauca\travelagency\client\presentation\GUICustomizerPackage.java
+D:\U\Semestre 6\Lab Ingenieria Software 2\Plantilla Julio\Plantilla\TravelAgency-Client\src\main\java\co\unicauca\travelagency\client\access\ICustomerAccess.java
+D:\U\Semestre 6\Lab Ingenieria Software 2\Plantilla Julio\Plantilla\TravelAgency-Client\src\main\java\co\unicauca\travelagency\client\domain\services\UserService.java
+D:\U\Semestre 6\Lab Ingenieria Software 2\Plantilla Julio\Plantilla\TravelAgency-Client\src\main\java\co\unicauca\travelagency\client\presentation\GUICustomer.java
+D:\U\Semestre 6\Lab Ingenieria Software 2\Plantilla Julio\Plantilla\TravelAgency-Client\src\main\java\co\unicauca\travelagency\client\domain\services\CustomerService.java
+D:\U\Semestre 6\Lab Ingenieria Software 2\Plantilla Julio\Plantilla\TravelAgency-Client\src\main\java\co\unicauca\travelagency\client\infra\Security.java
+D:\U\Semestre 6\Lab Ingenieria Software 2\Plantilla Julio\Plantilla\TravelAgency-Client\src\main\java\co\unicauca\travelagency\client\presentation\GUILogin.java
+D:\U\Semestre 6\Lab Ingenieria Software 2\Plantilla Julio\Plantilla\TravelAgency-Client\src\main\java\co\unicauca\travelagency\client\presentation\GUIAddCityDialogDialog.java
+D:\U\Semestre 6\Lab Ingenieria Software 2\Plantilla Julio\Plantilla\TravelAgency-Client\src\main\java\co\unicauca\travelagency\client\domain\User.java
+D:\U\Semestre 6\Lab Ingenieria Software 2\Plantilla Julio\Plantilla\TravelAgency-Client\src\main\java\co\unicauca\travelagency\client\infra\TravelAgencySocket.java
+D:\U\Semestre 6\Lab Ingenieria Software 2\Plantilla Julio\Plantilla\TravelAgency-Client\src\main\java\co\unicauca\travelagency\client\presentation\GUIAllInOnePackage.java
+D:\U\Semestre 6\Lab Ingenieria Software 2\Plantilla Julio\Plantilla\TravelAgency-Client\src\main\java\co\unicauca\travelagency\client\presentation\GUIMenu.java
+D:\U\Semestre 6\Lab Ingenieria Software 2\Plantilla Julio\Plantilla\TravelAgency-Client\src\main\java\co\unicauca\travelagency\client\access\Factory.java
+D:\U\Semestre 6\Lab Ingenieria Software 2\Plantilla Julio\Plantilla\TravelAgency-Client\src\main\java\co\unicauca\travelagency\client\infra\Messages.java

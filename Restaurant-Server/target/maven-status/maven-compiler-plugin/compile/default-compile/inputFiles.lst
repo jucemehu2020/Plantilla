@@ -1,7 +1,7 @@
-C:\Users\Julio Cesar\Downloads\PatronesComportamiento_CamiloOtaya_MariaTrujillo\PatronesComportamiento\TemplateMethod-Restaurant\Restaurant-Server\src\main\java\co\unicauca\restaurant\server\access\Factory.java
-C:\Users\Julio Cesar\Downloads\PatronesComportamiento_CamiloOtaya_MariaTrujillo\PatronesComportamiento\TemplateMethod-Restaurant\Restaurant-Server\src\main\java\co\unicauca\restaurant\server\app\Main.java
-C:\Users\Julio Cesar\Downloads\PatronesComportamiento_CamiloOtaya_MariaTrujillo\PatronesComportamiento\TemplateMethod-Restaurant\Restaurant-Server\src\main\java\co\unicauca\restaurant\server\access\ClienteRepositoryImplArrays.java
-C:\Users\Julio Cesar\Downloads\PatronesComportamiento_CamiloOtaya_MariaTrujillo\PatronesComportamiento\TemplateMethod-Restaurant\Restaurant-Server\src\main\java\co\unicauca\restaurant\server\domain\services\DomiciliosService.java
-C:\Users\Julio Cesar\Downloads\PatronesComportamiento_CamiloOtaya_MariaTrujillo\PatronesComportamiento\TemplateMethod-Restaurant\Restaurant-Server\src\main\java\co\unicauca\restaurant\server\infra\DomiciliosServer.java
-C:\Users\Julio Cesar\Downloads\PatronesComportamiento_CamiloOtaya_MariaTrujillo\PatronesComportamiento\TemplateMethod-Restaurant\Restaurant-Server\src\main\java\co\unicauca\restaurant\server\access\ClienteRepositoryImplMySql.java
-C:\Users\Julio Cesar\Downloads\PatronesComportamiento_CamiloOtaya_MariaTrujillo\PatronesComportamiento\TemplateMethod-Restaurant\Restaurant-Server\src\main\java\co\unicauca\restaurant\server\access\IClienteRepository.java
+D:\U\Semestre 6\Lab Ingenieria Software 2\Plantilla Julio\Plantilla\Restaurant-Server\src\main\java\co\unicauca\restaurant\server\access\IClienteRepository.java
+D:\U\Semestre 6\Lab Ingenieria Software 2\Plantilla Julio\Plantilla\Restaurant-Server\src\main\java\co\unicauca\restaurant\server\domain\services\DomiciliosService.java
+D:\U\Semestre 6\Lab Ingenieria Software 2\Plantilla Julio\Plantilla\Restaurant-Server\src\main\java\co\unicauca\restaurant\server\access\ClienteRepositoryImplMySql.java
+D:\U\Semestre 6\Lab Ingenieria Software 2\Plantilla Julio\Plantilla\Restaurant-Server\src\main\java\co\unicauca\restaurant\server\access\ClienteRepositoryImplArrays.java
+D:\U\Semestre 6\Lab Ingenieria Software 2\Plantilla Julio\Plantilla\Restaurant-Server\src\main\java\co\unicauca\restaurant\server\access\Factory.java
+D:\U\Semestre 6\Lab Ingenieria Software 2\Plantilla Julio\Plantilla\Restaurant-Server\src\main\java\co\unicauca\restaurant\server\app\Main.java
+D:\U\Semestre 6\Lab Ingenieria Software 2\Plantilla Julio\Plantilla\Restaurant-Server\src\main\java\co\unicauca\restaurant\server\infra\DomiciliosServer.java

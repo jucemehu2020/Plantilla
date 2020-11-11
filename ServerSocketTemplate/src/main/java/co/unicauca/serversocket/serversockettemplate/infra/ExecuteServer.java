@@ -7,7 +7,7 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author Camilo Otaya, Maria Trujillo
+ * @author Julio Hurtado, Libardo Pantoja
  */
 public class ExecuteServer {
 

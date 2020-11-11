@@ -35,7 +35,7 @@ public class ClienteAccessImplSockets implements ICliente{
 			mySocket.disconnect();
 			
 		} catch (IOException exception) {
-			Logger.getLogger(ClienteAccessImplSockets.class.getName()).log(Level.SEVERE, "No hubo conexión con el servidor", exception);
+			Logger.getLogger(ClienteAccessImplSockets.class.getName()).log(Level.SEVERE, "No hubo conexion con el servidor", exception);
 		}
 		
 		if (jsonResponse == null) {
@@ -80,12 +80,12 @@ public class ClienteAccessImplSockets implements ICliente{
         cliente.setCorreoCliente(prop.getProperty("clienteCorreo"));
         cliente.setClaveCliente(prop.getProperty("clienteClave"));              
     }
-        private String consultarClienteRequestJson(String id,String contraseña) {
+        private String consultarClienteRequestJson(String id,String contrasena) {
 		Protocol protocol = new Protocol();
 		protocol.setResource("cliente");
 		protocol.setAction("get");    
                 protocol.addParameter("idCliente", id);
-		protocol.addParameter("contraseñaCliente", contraseña);
+		protocol.addParameter("contrasenaCliente", contrasena);
 		Gson gson = new Gson();
 		String requestJson = gson.toJson(protocol);
 		System.out.println("json" + requestJson);

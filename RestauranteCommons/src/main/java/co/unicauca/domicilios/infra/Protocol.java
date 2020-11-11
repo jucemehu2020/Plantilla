@@ -15,7 +15,7 @@ public class Protocol {
     private List<Parameter> parameters;
 
     public Protocol() {
-        parameters = new ArrayList<>();
+        parameters = new ArrayList<Parameter>();
     }
 
     public String getResource() {

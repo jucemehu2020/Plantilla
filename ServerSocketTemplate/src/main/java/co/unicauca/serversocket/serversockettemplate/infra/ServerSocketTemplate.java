@@ -13,7 +13,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 /**
- * @author Camilo Otaya, Maria Trujillo
+ * @author Julio Hurtado, Libardo Pantoja
  */
 public abstract class ServerSocketTemplate implements Runnable {
 
@@ -161,12 +161,12 @@ public abstract class ServerSocketTemplate implements Runnable {
      * Convierte el objeto Customer a json para que el servidor lo envie como
      * respuesta por el socket
      *
-     * @param objeto objeto a serializar
+     * @param customer cliente
      * @return customer en formato json
      */
-    protected String objectToJSON(Object objeto) {
+    protected String objectToJSON(Object customer) {
         Gson gson = new Gson();
-        String strObject = gson.toJson(objeto);
+        String strObject = gson.toJson(customer);
         return strObject;
     }
 

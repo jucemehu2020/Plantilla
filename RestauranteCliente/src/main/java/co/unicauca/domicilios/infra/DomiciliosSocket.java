@@ -13,7 +13,7 @@ public class DomiciliosSocket {
     private Scanner input;
     private PrintStream output;
     private final String IP_SERVER = "localhost";
-    private final int PORT = 5100;
+    private final int PORT = 5001;
 
     public String sendStream(String requestJson) throws IOException {
         String response = "";
