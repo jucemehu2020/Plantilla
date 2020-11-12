@@ -2,7 +2,10 @@ package co.unicauca.domicilios.domain;
 
 import co.unicauca.domicilios.access.ClienteAccessImplSockets;
 import co.unicauca.domicilios.access.ICliente;
-
+/**
+ *
+ * @author Cristian Pinto, Julio Mellizo
+ */
 public class CreateNewClient {
 	
 	private ICliente client;

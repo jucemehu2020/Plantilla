@@ -7,14 +7,42 @@ import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+/**
+ * Representa el Socket de la aplicacion de cliente. Su funcion es enviar una 
+ * solicitud/ respuesta entre el cliente y el servidor.
+ * 
+ * @author Cristian Pinto, Julio Mellizo
+ */
 public class DomiciliosSocket {
-
-    private Socket socket = null;
+ /**
+     * Socket de la aplicación cliente
+     */
+    private java.net.Socket socket = null;
+    /**
+     * Permite leer la recibir la respuesta del socket
+     */
     private Scanner input;
+    /**
+     * Permite enviar una solicitud por el socket
+     */
     private PrintStream output;
-    private final String IP_SERVER = "localhost";
-    private final int PORT = 5001;
+    /**
+     * Ip del Server Socket
+     */
+    private final String IP_SERVER = Utilities.loadProperty("server.ip");
+    /**
+     * Puerto del server socket
+     */
+    private final int PORT = Integer.parseInt(Utilities.loadProperty("server.port"));
 
+    /**
+     * Envia una solicitud desde la aplicación cliente al servidor mediate el
+     * socket
+     *
+     * @param requestJson solicitud en formato json
+     * @return respuesta del scoket
+     * @throws IOException error de entrada y salida
+     */
     public String sendStream(String requestJson) throws IOException {
         String response = "";
         input = new Scanner(socket.getInputStream());
@@ -59,5 +87,4 @@ public class DomiciliosSocket {
         socket = new java.net.Socket(IP_SERVER, PORT);
         Logger.getLogger("SocketClient").log(Level.INFO, "Socket establecido");
     }
-
 }

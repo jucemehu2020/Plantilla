@@ -1,5 +1,8 @@
 package co.unicauca.restaurant.server.access;
-
+/**
+ * Fabrica que se encarga de instanciar un repositorio concreto
+ * @author Cristian Pinto, Julio Mellizo
+ */
 public class Factory {
 	
 	private static Factory instance;
@@ -36,7 +39,7 @@ public class Factory {
 		
 		IClienteRepository result = null;
 		
-		result = new ClienteRepositoryImplMySql();
+		result = new ClienteRepositoryImplArrays();
 		
 		return result;
 		

@@ -1,9 +1,8 @@
 package co.unicauca.domicilios.infra;
 
 /**
- * Parametro.
- * Lo usa la clase Protocol
- * @author Libardo, Julio
+ *
+ * @author Cristian Pinto, Julio Mellizo
  */
 public class Parameter {
 

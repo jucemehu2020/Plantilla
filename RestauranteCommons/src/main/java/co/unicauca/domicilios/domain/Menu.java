@@ -1,5 +1,8 @@
 package co.unicauca.domicilios.domain;
-
+/**
+ *
+ * @author Cristian Pinto, Julio Mellizo
+ */
 public class Menu {
 
 	private int codigoPlato;

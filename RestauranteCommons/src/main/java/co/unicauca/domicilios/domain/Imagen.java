@@ -7,7 +7,7 @@ package co.unicauca.domicilios.domain;
 
 /**
  *
- * @author Julio Cesar
+ * @author Cristian Pinto, Julio Mellizo
  */
 public class Imagen {
     

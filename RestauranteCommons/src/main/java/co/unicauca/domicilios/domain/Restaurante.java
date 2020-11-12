@@ -1,7 +1,10 @@
 package co.unicauca.domicilios.domain;
 import java.io.File;
 import java.io.FileInputStream;
-
+/**
+ *
+ * @author Cristian Pinto, Julio Mellizo
+ */
 public class Restaurante {
 	
 	private String nit;

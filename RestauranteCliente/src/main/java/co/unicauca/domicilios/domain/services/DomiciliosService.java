@@ -3,9 +3,13 @@ package co.unicauca.domicilios.domain.services;
 import co.unicauca.domicilios.domain.Cliente;
 import co.unicauca.domicilios.access.ICliente;
 
-
+/**
+ * Es una fachada para comunicar la presentacion con el dominio
+ *
+ * @author Cristian Pinto, Julio Mellizo
+ */
 public class DomiciliosService {
-    
+
     private final ICliente service;
 
     /**
@@ -17,9 +21,19 @@ public class DomiciliosService {
         this.service = service;
     }
 
+    /**
+     * Busca un cliente en el servidor remoto 
+     * @param correo que se usa para identificador del cliente 
+     * @return Objeto tipo Cliente, null si no lo encuentra
+     * @throws Exception 
+     */
+    public Cliente findCustomer(String correo) throws Exception {
+        return service.findCliente(correo);
+
+    }
+    
     public String createCliente(Cliente cliente) throws Exception {
         return service.addCliente(cliente);
 
     }
-
 }

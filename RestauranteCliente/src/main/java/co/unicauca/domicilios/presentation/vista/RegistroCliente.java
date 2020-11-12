@@ -12,7 +12,7 @@ import java.awt.*;
 
 /**
  *
- * @author Acer
+ * @author Cristian Pinto, Julio Mellizo
  */
 public class RegistroCliente extends javax.swing.JFrame {
 
@@ -247,8 +247,11 @@ public class RegistroCliente extends javax.swing.JFrame {
             String correoCliente = txtRegistroCorreoCliente.getText();
             String contrasenaCliente = txtRegistroContrasenaCliente.getText();
             createNewClient.clientRegistry(nombreCliente, apellidoCliente, fechaNacCliente, correoCliente, contrasenaCliente);
-            JOptionPane.showConfirmDialog(null, "¡Se ha registrado con Exito!");
-
+            int resultado = JOptionPane.showConfirmDialog(null, "¡Se ha registrado con éxito!", "Deliverya App", dialogo, aux, new ImageIcon("src/main/java/imagen/pulgar-arriba.png"));
+            if (resultado == 0) {
+            new IniciarSesionCliente().setVisible(true);
+            super.dispose();
+        }
         }
         
         

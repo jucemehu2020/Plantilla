@@ -13,8 +13,12 @@ import co.unicauca.serversocket.serversockettemplate.infra.ServerSocketTemplate;
 
 import java.util.ArrayList;
 import java.util.List;
-
-public class DomiciliosServer extends ServerSocketTemplate{
+/**
+ * Servidor Socket que esta escuchando permanentemente solicitudes de los
+ * clientes. Cada solicitud la atiende en un hilo de ejecucion
+ * @author Cristian Pinto, Julio Mellizo
+ */
+public class DomiciliosServerSocket extends ServerSocketTemplate{
     
     /**
      * Servicio de clientes
@@ -53,6 +57,7 @@ public class DomiciliosServer extends ServerSocketTemplate{
             case "cliente":
                 if (protocolRequest.getAction().equals("get")) {
                     // Consultar un cliente
+                    processGetCliente(protocolRequest);
                 }
 
                 if (protocolRequest.getAction().equals("post")) {
@@ -64,7 +69,22 @@ public class DomiciliosServer extends ServerSocketTemplate{
         }
 
     }
-
+/**
+     * Procesa la solicitud de consultar un cliente
+     *
+     * @param protocolRequest Protocolo de la solicitud
+     */
+    private void processGetCliente(Protocol protocolRequest) {
+        // Extraer la cedula del primer parámetro
+        String id = protocolRequest.getParameters().get(0).getValue();
+        Cliente cliente = getService().findCliente(id);
+        if (cliente == null) {
+            String errorJson = generateNotFoundErrorJson();
+            respond(errorJson);
+        } else {
+            respond(objectToJSON(cliente));
+        }
+    }
 
     /**
      * Procesa la solicitud de agregar un cliente
@@ -74,11 +94,11 @@ public class DomiciliosServer extends ServerSocketTemplate{
     private void processPostCliente(Protocol protocolRequest) {
         Cliente cliente = new Cliente();
         // Reconstruir el cliente a partid de lo que viene en los parámetros
-        cliente.setNombreCliente(protocolRequest.getParameters().get(1).getValue());
-        cliente.setApellidoCliente(protocolRequest.getParameters().get(2).getValue());
-        cliente.setFechaNacCliente(protocolRequest.getParameters().get(3).getValue());
-        cliente.setCorreoCliente(protocolRequest.getParameters().get(4).getValue());
-        cliente.setClaveCliente(protocolRequest.getParameters().get(5).getValue());
+        cliente.setNombreCliente(protocolRequest.getParameters().get(0).getValue());
+        cliente.setApellidoCliente(protocolRequest.getParameters().get(1).getValue());
+        cliente.setFechaNacCliente(protocolRequest.getParameters().get(2).getValue());
+        cliente.setCorreoCliente(protocolRequest.getParameters().get(3).getValue());
+        cliente.setClaveCliente(protocolRequest.getParameters().get(4).getValue());
       
         String response = getService().addCliente(cliente);
         respond(response);

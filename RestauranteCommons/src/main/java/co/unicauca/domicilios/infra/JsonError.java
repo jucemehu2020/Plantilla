@@ -1,9 +1,7 @@
 package co.unicauca.domicilios.infra;
-
 /**
- * Representa un error
  *
- * @author Libardo, Julio
+ * @author Cristian Pinto, Julio Mellizo
  */
 public class JsonError {
 

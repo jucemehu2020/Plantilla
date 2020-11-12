@@ -6,9 +6,8 @@ import java.io.InputStream;
 import java.util.Properties;
 
 /**
- * Utilidades varias utilizadas por otras clases
  *
- * @author Libardo, Julio
+ * @author Cristian Pinto, Julio Mellizo
  */
 public class Utilities {
 

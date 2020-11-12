@@ -1,5 +1,8 @@
 package co.unicauca.domicilios.access;
-
+/**
+ *
+ * @author Cristian Pinto, Julio Mellizo
+ */
 public class Factory {
 	
 	private static Factory instance;
@@ -7,11 +10,10 @@ public class Factory {
 	private Factory() {
 	}
 
-	/**
-	 * Clase singleton
-	 *
-	 * @return
-	 */
+        /**
+         * Clase Singleton
+         * @return 
+         */
 	public static Factory getInstance() {
 		
 		if (instance == null) {

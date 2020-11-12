@@ -4,10 +4,11 @@ import co.unicauca.domicilios.domain.Cliente;
 import java.util.ArrayList;
 import java.util.List;
 
+
 /**
- * Implementación de IClienteRepository. Utilliza arreglos en memoria
- *
- * @author Camilo Otaya, Maria Teresa Trujillo
+ * Implementacion de IClienteRepository. Utiliza arreglos en memoria
+ * 
+ * @author Cristian Pinto, Julio Mellizo
  */
 public final class ClienteRepositoryImplArrays implements IClienteRepository {
 
@@ -27,24 +28,30 @@ public final class ClienteRepositoryImplArrays implements IClienteRepository {
     }
 
     public void inicializar() {
-        clientes.add(new Cliente("Andrea", "Sanchez", "Calle 14 No 11-12 Popayan", "andrea@hotmail.com", "Femenino"));
-        clientes.add(new Cliente( "Libardo", "Pantoja", "Santa Barbar Popayan",  "libardo@gmail.com", "Masculino"));
-        clientes.add(new Cliente("Carlos", "Pantoja", "Santa Barbar Popayan",  "carlos@gmail.com", "Masculino"));
-        clientes.add(new Cliente("Fernanda", "Arevalo", "Calle 16 No 12-12 Popayan",  "fercha@hotmail.com", "Femenino"));
-        clientes.add(new Cliente("Manuel", "Perez", "Calle 12 No 12-12 Popayan",  "fer@hotmail.com", "Masculino"));        
+        clientes.add(new Cliente("Andrea", "Sanchez", "24/09/1999", "andrea@hotmail.com", "12345"));
+        clientes.add(new Cliente( "Libardo", "Pantoja", "24/09/1998",  "libardo@gmail.com", "12345"));
+        clientes.add(new Cliente("Carlos", "Pantoja", "24/09/1987",  "carlos@gmail.com", "12345"));
     }
-
-    /**
-     * Busca u Cliente en el arreglo
-     *
-     * @param id cedula del cliente
-     * @return objeto Cliente
-     */
 
     @Override
     public String addCliente(Cliente cliente) {
         clientes.add(cliente);
         return cliente.getCorreoCliente();
+    }
+    
+    /**
+     * Busca un cliente en el arreglo
+     * @param correo correo del cliente
+     * @return objeto cliente
+     */
+    @Override
+    public Cliente findCliente(String correo) {
+        for (Cliente cliente : clientes) {
+            if (cliente.getCorreoCliente().equals(correo)) {
+                return cliente;
+            }
+        }
+        return null;
     }
 
 }

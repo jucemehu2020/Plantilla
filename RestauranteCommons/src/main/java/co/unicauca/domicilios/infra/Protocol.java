@@ -4,9 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Protocolo de comunicación entre la aplicación cliente y el servidor
  *
- * @author Libardo, Julio
+ * @author Cristian Pinto, Julio Mellizo
  */
 public class Protocol {
 

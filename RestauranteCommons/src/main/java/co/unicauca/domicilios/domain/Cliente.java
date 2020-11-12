@@ -2,64 +2,93 @@ package co.unicauca.domicilios.domain;
 
 /**
  *
- * @author Julio Cesar
+ * @author Cristian Pinto, Julio Mellizo
  */
 public class Cliente {
-    
-        private String nombreCliente;
-	private String apellidoCliente;
-	private String fechaNacCliente;
-	private String correoCliente;
-        private String claveCliente;
+    /**
+     * Nombre
+     */
+    private String nombreCliente;
+    /**
+     * Apellido
+     */
+    private String apellidoCliente;
+    /**
+     * Fecha Nacimiento
+     */
+    private String fechaNacCliente;
+    /**
+     * Correo
+     */
+    private String correoCliente;
+    /**
+     * Clave
+     */
+    private String claveCliente;
 
-	public Cliente(String nombreCliente, String apellidoCliente, String fechaNacCliente, String correoCliente, String claveCliente) {
-		this.nombreCliente = nombreCliente;
-		this.apellidoCliente = apellidoCliente;
-		this.fechaNacCliente = fechaNacCliente;
-		this.correoCliente = correoCliente;
-                this.claveCliente = claveCliente;
-	}
-	
-	public Cliente() {
-	}
-	
-	public String getNombreCliente() {
-		return nombreCliente;
-	}
+    /**
+     * Constructor parametrizado
+     * 
+     * @param nombreCliente nombre
+     * @param apellidoCliente apelido
+     * @param fechaNacCliente fecha de nacimiento
+     * @param correoCliente correo
+     * @param claveCliente clave
+     */
+    public Cliente(String nombreCliente, String apellidoCliente, String fechaNacCliente, String correoCliente, String claveCliente) {
+        this.nombreCliente = nombreCliente;
+        this.apellidoCliente = apellidoCliente;
+        this.fechaNacCliente = fechaNacCliente;
+        this.correoCliente = correoCliente;
+        this.claveCliente = claveCliente;
+    }
+    /**
+     * Constructor por defecto
+     */
+    public Cliente() {
+    }
 
-	public void setNombreCliente(String nombreCliente) {
-		this.nombreCliente = nombreCliente;
-	}
+    /**
+     * Getters and Setters
+     * @return 
+     */
+    public String getNombreCliente() {
+        return nombreCliente;
+    }
 
-	public String getApellidoCliente() {
-		return apellidoCliente;
-	}
+    public void setNombreCliente(String nombreCliente) {
+        this.nombreCliente = nombreCliente;
+    }
 
-	public void setApellidoCliente(String apellidoCliente) {
-		this.apellidoCliente = apellidoCliente;
-	}
+    public String getApellidoCliente() {
+        return apellidoCliente;
+    }
 
-	public String getFechaNacCliente() {
-		return fechaNacCliente;
-	}
+    public void setApellidoCliente(String apellidoCliente) {
+        this.apellidoCliente = apellidoCliente;
+    }
 
-	public void setFechaNacCliente(String fechaNacCliente) {
-		this.fechaNacCliente = fechaNacCliente;
-	}
+    public String getFechaNacCliente() {
+        return fechaNacCliente;
+    }
 
-	public String getCorreoCliente() {
-		return correoCliente;
-	}
+    public void setFechaNacCliente(String fechaNacCliente) {
+        this.fechaNacCliente = fechaNacCliente;
+    }
 
-	public void setCorreoCliente(String correoCliente) {
-		this.correoCliente = correoCliente;
-	}
-        
-        public String getClaveCliente() {
-		return this.claveCliente;
-	}
+    public String getCorreoCliente() {
+        return correoCliente;
+    }
 
-	public void setClaveCliente(String claveCliente) {
-		this.claveCliente = claveCliente;
-	}
+    public void setCorreoCliente(String correoCliente) {
+        this.correoCliente = correoCliente;
+    }
+
+    public String getClaveCliente() {
+        return this.claveCliente;
+    }
+
+    public void setClaveCliente(String claveCliente) {
+        this.claveCliente = claveCliente;
+    }
 }
